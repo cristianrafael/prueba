@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cristian Rafael Romero Chávez</title>
+    </head>
+    <body>
+        <form action="formulario.html" method="POST">
+            <table>
+                <thead>
+                    <tr>
+                        <td><label for="meta">Meta</label></td>
+                        <td><input type="text" name="meta" id="meta" placeholder="Escribe una meta"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="descripcion">Descripcion</label></td>
+                        <td><textarea rows="4" cols="20" placeholder="Escribe aqui una descripcion" name="descripcion" id="descripcion"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="plazo">Plazo</label></td>
+                        <td>
+                            <select type="text" name="plazo" id="plazo">
+                                <option value="1">1 año</option>
+                                <option value="3">3 años</option>
+                                <option value="5">5 años</option>
+                                <option value="10">10 años</option>
+                            </select><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="radio" name="ind" value="si">Indispensable<br>
+                            <input type="radio" name="ind" value="no">Puedo vivir sin ello<br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Puedo realizarlo</td>
+                        <td>
+                            <input type="checkbox" name="antes" value="true">Antes<br>
+                            <input type="checkbox" name="durante" value="true">Durante<br>
+                            <input type="checkbox" name="despues" value="true">Despues de la carrera<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="hidden" name="codigo" value="7507"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Crear meta"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+    </body>
+</html>
